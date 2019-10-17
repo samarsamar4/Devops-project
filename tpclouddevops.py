@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 import pickle
 
-
 def clean_dataset(df):
     assert isinstance(df, pd.DataFrame), "df needs to be a pd.DataFrame"
     df.dropna(inplace=True)
