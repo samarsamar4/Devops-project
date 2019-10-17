@@ -35,7 +35,6 @@ Y_pred = model.predict(X_test)
 r_sq = model.score(X_train, Y_train)
 h1=model.intercept_
 h2= model.coef_
-
 print("R²=",r_sq)
 print("h1=",h1)
 print("h2=",h2)
